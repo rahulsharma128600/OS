@@ -1,0 +1,15 @@
+read -p "Enter the level you want to print : " level
+
+x=1
+for ((i=0;i<level;i++))
+do
+     for ((j=0;j<=i;j++))
+     do 
+         echo -n "$x "
+     done
+     x=$(($x+1))
+     echo ""
+done
+
+
+
